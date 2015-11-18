@@ -1,0 +1,26 @@
+{
+  "name": "diceware",
+  "version": "0.1.0",
+  "description": "'Create pseudo-random passphrases using the Diceware method'",
+  "bin": {
+    "diceware": "./bin/diceware"
+  },
+  "main": "lib/util.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Diceware",
+    "pseudo-random"
+  ],
+  "author": "Benjamin Toll <benjam72@yahoo.com> (http://www.benjamintoll.com)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btoll/diceware"
+  },
+  "dependencies": {
+    "yargs": "^3.30.0"
+  }
+}
+
