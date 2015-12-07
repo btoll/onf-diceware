@@ -2,7 +2,7 @@
     'use strict';
 
     let crypto = require('crypto'),
-        wordlist = require('./wordlist'),
+        wordlist = require('./lib/wordlist'),
         diceware;
 
     diceware = {
