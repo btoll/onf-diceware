@@ -16,6 +16,8 @@
 
     if (argv._[0] === 'generate') {
         console.log(diceware.getPassphrase(argv.n));
+    } else {
+        console.log('[ERROR] Unrecognized command');
     }
 })();
 
