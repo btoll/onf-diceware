@@ -19,5 +19,13 @@ From the [official site][diceware]:
     -n=NUM | The length of the passphrase (defaults to six words).
     -h, --help | Display help.
 
+## License
+
+[MIT](LICENSE)
+
+## Author
+
+Benjamin Toll
+
 [diceware]: http://world.std.com/~reinhold/diceware.html
 

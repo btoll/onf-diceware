@@ -14,7 +14,7 @@
     "pseudo-random"
   ],
   "author": "Benjamin Toll <benjam72@yahoo.com> (http://www.benjamintoll.com)",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/btoll/diceware"
@@ -23,4 +23,3 @@
     "yargs": "^3.30.0"
   }
 }
-
