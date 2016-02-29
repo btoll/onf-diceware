@@ -8,5 +8,6 @@ node_js:
   - "iojs"
 before_install:
   - npm i -g eslint
+  - npm i -g jasmine
 sudo: false
 
