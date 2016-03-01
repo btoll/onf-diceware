@@ -11,7 +11,5 @@ before_install:
   - npm i -g babel-core
   - npm i -g eslint
   - npm i -g jasmine
-before_script:
-  - jasmine init
 sudo: false
 
