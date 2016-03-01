@@ -7,6 +7,8 @@ node_js:
   - "0.10"
   - "iojs"
 before_install:
+  - npm i -g babel-cli
+  - npm i -g babel-core
   - npm i -g eslint
   - npm i -g jasmine
 sudo: false
