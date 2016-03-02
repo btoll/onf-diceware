@@ -11,7 +11,7 @@
     "compile": "babel -d build src",
     "coverage": "JASMINE_CONFIG_PATH=jasmine.json istanbul cover jasmine --captureExceptions",
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
-    "lint": "eslint index.js bin",
+    "lint": "eslint bin spec src",
     "specs": "JASMINE_CONFIG_PATH=jasmine.json jasmine",
     "test": "npm run clean && npm run lint && npm run compile && npm run specs"
   },

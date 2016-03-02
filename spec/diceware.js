@@ -1,7 +1,7 @@
 'use strict';
 
 describe('diceware', () => {
-    let diceware = require('../index');
+    let diceware = require('../src/index');
 
     function isString(str) {
         return Object.prototype.toString.call(str) === '[object String]';
