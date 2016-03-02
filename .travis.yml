@@ -9,6 +9,7 @@ node_js:
 before_install:
   - npm i -g babel-cli
   - npm i -g babel-core
+  - npm i -g babel-register
   - npm i -g eslint
   - npm i -g jasmine
 sudo: false
