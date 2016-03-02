@@ -1,6 +1,6 @@
-(() => {
-    'use strict';
+'use strict';
 
+(() => {
     let crypto = require('crypto'),
         wordlist = require('./lib/wordlist'),
         size = 6,

@@ -3,7 +3,7 @@
 (() => {
     'use strict';
 
-    let diceware = require('../index'),
+    let diceware = require('../src/index'),
         argv = require('yargs')
             .usage('Usage: diceware generate [options]')
             .example('diceware generate', 'Generate a passphrase using the Diceware method')
