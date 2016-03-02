@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/btoll/diceware.svg?branch=master)](https://travis-ci.org/btoll/diceware)
-
 # What is Diceware?
+
+[![Build Status](https://travis-ci.org/btoll/diceware.svg?branch=master)](https://travis-ci.org/btoll/diceware)
+[![Coverage Status](https://coveralls.io/repos/github/btoll/diceware/badge.svg?branch=master)](https://coveralls.io/github/btoll/diceware?branch=master)
 
 From the [official site][diceware]:
 
