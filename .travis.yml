@@ -8,10 +8,6 @@ node_js:
   - "iojs"
 before_install:
   - npm i -g babel-cli
-  - npm i -g babel-core
-  - npm i -g babel-register
-  - npm i -g coveralls
-  - npm i -g eslint
   - npm i -g jasmine
 after_success:
   - npm run coveralls
