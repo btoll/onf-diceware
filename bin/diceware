@@ -4,6 +4,7 @@
     'use strict';
 
     let diceware = require('../src/index'),
+        logger = require('logger'),
         argv = require('yargs')
             .usage('Usage: diceware generate [options]')
             .example('diceware generate', 'Generate a passphrase using the Diceware method')
@@ -15,9 +16,9 @@
             .argv;
 
     if (argv._[0] === 'generate') {
-        console.log(diceware.getPassphrase(argv.n));
+        logger.log(diceware.getPassphrase(argv.n));
     } else {
-        console.log('[ERROR] Unrecognized command');
+        logger.error('Unrecognized command');
     }
 })();
 
