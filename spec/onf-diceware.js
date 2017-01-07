@@ -1,6 +1,6 @@
 'use strict';
 
-describe('diceware', () => {
+describe('onf-diceware', () => {
     let diceware = require('../src/index');
 
     function isString(str) {

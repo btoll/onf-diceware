@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+'use strict';
+
+let diceware = require('../src/index'),
+    logger = require('logger'),
+    argv = require('yargs')
+        .usage('Usage: diceware generate [options]')
+        .example('diceware generate', 'Generate a passphrase using the Diceware method')
+        .command('generate', 'Generate passphrase')
+        .describe('n', 'The length of the passphrase (defaults to six words)')
+        .nargs('n', 1)
+        .help('h')
+        .alias('h', 'help')
+        .argv;
+
+if (argv._[0] === 'generate') {
+    logger.log(diceware.getPassphrase(argv.n));
+} else {
+    logger.error('Unrecognized command');
+}
+

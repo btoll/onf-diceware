@@ -1,4 +1,4 @@
-##Test suite 'diceware'
+##Test suite 'onf-diceware'
 
 ###(describe) '.size'
 	 it -> 'should have a default passphrase size of six'

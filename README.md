@@ -1,7 +1,7 @@
-# Diceware
+# onf-diceware
 
-[![Build Status](https://travis-ci.org/btoll/diceware.svg?branch=master)](https://travis-ci.org/btoll/diceware)
-[![Coverage Status](https://coveralls.io/repos/github/btoll/diceware/badge.svg?branch=master)](https://coveralls.io/github/btoll/diceware?branch=master)
+[![Build Status](https://travis-ci.org/btoll/onf-diceware.svg?branch=master)](https://travis-ci.org/btoll/onf-diceware)
+[![Coverage Status](https://coveralls.io/repos/github/btoll/onf-diceware/badge.svg?branch=master)](https://coveralls.io/github/btoll/onf-diceware?branch=master)
 
 ## What is Diceware?
 
@@ -11,7 +11,7 @@ From the [official site][diceware]:
 
 ## Installation
 
-`npm install https://github.com/btoll/diceware.git -g`
+`npm i onf-diceware`
 
 ## Usage
 

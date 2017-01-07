@@ -1,9 +1,9 @@
 {
-  "name": "diceware",
+  "name": "onf-diceware",
   "version": "0.1.0",
   "description": "Create pseudo-random passphrases using the Diceware method",
   "bin": {
-    "diceware": "./bin/diceware"
+    "onf-diceware": "./bin/onf-diceware"
   },
   "main": "./src/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "lint": "eslint bin spec src",
     "specs": "JASMINE_CONFIG_PATH=jasmine.json jasmine && npm run suites",
-    "suites": "dump_describes -t spec/diceware.js -d spec -v --html && dump_describes -t spec/diceware.js -d spec -v --md",
+    "suites": "dump_describes -t spec/onf-diceware.js -d spec -v --html && dump_describes -t spec/onf-diceware.js -d spec -v --md",
     "test": "npm run clean && npm run lint && npm run compile && npm run specs"
   },
   "keywords": [
@@ -21,18 +21,15 @@
     "diceware",
     "passphrase",
     "pseudo-random",
-    "random",
-    "crypto",
-    "cryptography"
+    "random"
   ],
   "author": "Benjamin Toll <benjam72@yahoo.com> (http://www.benjamintoll.com)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/btoll/diceware"
+    "url": "https://github.com/btoll/onf-diceware"
   },
   "dependencies": {
-    "logger": "git+https://github.com/btoll/logger.git",
     "yargs": "^3.30.0"
   },
   "devDependencies": {
