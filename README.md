@@ -26,7 +26,7 @@ From the [official site][diceware]:
 
 ## License
 
-[MIT](LICENSE)
+[GPLv3](COPYING)
 
 ## Author
 
