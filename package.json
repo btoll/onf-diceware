@@ -1,6 +1,6 @@
 {
   "name": "onf-diceware",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Create pseudo-random passphrases using the Diceware method",
   "bin": {
     "onf-diceware": "./bin/onf-diceware"
