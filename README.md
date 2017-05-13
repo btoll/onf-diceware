@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/btoll/onf-diceware.svg?branch=master)](https://travis-ci.org/btoll/onf-diceware)
 [![Coverage Status](https://coveralls.io/repos/github/btoll/onf-diceware/badge.svg?branch=master)](https://coveralls.io/github/btoll/onf-diceware?branch=master)
+[![npm](https://img.shields.io/npm/v/onf-diceware.svg)](https://www.npmjs.com/package/onf-diceware)
 
 ## What is Diceware?
 
