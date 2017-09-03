@@ -25,6 +25,10 @@ From the [official site][diceware]:
     -n=NUM | The length of the passphrase (defaults to six words).
     -h, --help | Display help.
 
+## Ports
+
+- [Go][golang]
+
 ## License
 
 [GPLv3](COPYING)
@@ -34,4 +38,5 @@ From the [official site][diceware]:
 Benjamin Toll
 
 [diceware]: http://world.std.com/~reinhold/diceware.html
+[golang]: https://github.com/btoll/diceware
 
