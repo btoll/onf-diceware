@@ -30,6 +30,7 @@
     "url": "https://github.com/btoll/onf-diceware"
   },
   "dependencies": {
+    "onf-logger": "^0.4.1",
     "yargs": "^3.30.0"
   },
   "devDependencies": {
