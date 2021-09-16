@@ -9,13 +9,17 @@ let diceware = require('../src/index'),
         .example('diceware generate', 'Generate a passphrase using the Diceware method')
         .command('generate', 'Generate passphrase')
         .describe('n', 'The length of the passphrase (defaults to six words)')
+        .describe('d', 'The character that joins the words')
+        .default('n', 6)
+        .default('d', '')
         .nargs('n', 1)
+        .nargs('d', 1)
         .help('h')
         .alias('h', 'help')
         .argv;
 
 if (argv._[0] === 'generate') {
-    logger.log(diceware.getPassphrase(argv.n));
+    logger.log(diceware.getPassphrase(argv.n).slice(0, -1));
 } else {
     logger.error('Unrecognized command');
 }

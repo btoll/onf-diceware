@@ -23,6 +23,7 @@ From the [official site][diceware]:
     Option | Description
     ------------ | -------------
     -n=NUM | The length of the passphrase (defaults to six words).
+    -delimiter=CHAR | The character that joins the words.
     -h, --help | Display help.
 
 ## Ports

@@ -39,7 +39,7 @@ const diceware = Object.create(null, {
      * to the preferred default.
      */
     getPassphrase: {
-        value: n => {
+        value: (n, delimiter) => {
             let res;
 
             if (n < 1) {
@@ -50,7 +50,7 @@ const diceware = Object.create(null, {
             n = n || diceware.size;
             res.push(diceware.getWord());
 
-            return res.concat(diceware.getPassphrase(--n)).join(' ');
+            return res.concat(diceware.getPassphrase(--n, delimiter)).join(delimiter);
         }
     },
 
